@@ -19,6 +19,15 @@ RESTful application: ECS781P Cloud Computing Mini project
 5. Use of HTML web templates to display the results.
 
 
+## Usage example
+
+* Main page (/): The main page is defined in the HTML template user interface, it asks user to enter the query to search
+* /database : The UI asks user to enter the query in the URL= database/{query} format
+* /database/<query> : To search the results in the Cassandra database, User enters query in the form of database/{query}
+* /database/search/ : Returns the JSON response list of all tweets in the stored database through GET request
+* /tweetsearch : For the entered query on the main UI page, search in the stored Cassandra database first; if not found connect to Twitter external API
+
+
 ## Installation
 
 OS X & Linux:
@@ -32,14 +41,6 @@ Windows:
 ```sh
 edit autoexec.bat
 ```
-
-## Usage example
-
-* Main page (/): The main page is defined in the HTML template user interface, it asks user to enter the query to search
-* /database : The UI asks user to enter the query in the URL= database/{query} format
-* /database/<query> : To search the results in the Cassandra database, User enters query in the form of database/{query}
-* /database/search/ : Returns the JSON response list of all tweets in the stored database through GET request
-* /tweetsearch : For the entered query on the main UI page, search in the stored Cassandra database first; if not found connect to Twitter external API
 
 
 ## Installation
