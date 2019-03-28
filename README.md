@@ -60,13 +60,13 @@ $ venv\Scripts\activate
 ```
 
 To use cqlsh, the Cassandra query language shell, you need to install cassandra-driver:
-
-```pip install cassandra-driver
+```$ 
+pip install cassandra-driver
 ```
 
 This installs Apache Cassandra:
-
-```brew install cassandra
+```$ 
+$ brew install cassandra
 ```
 
 ## Release History
