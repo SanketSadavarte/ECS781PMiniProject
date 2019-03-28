@@ -2,10 +2,6 @@
 
 RESTful application: ECS781P Cloud Computing Mini project
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
 1. Dynamically generated REST API, API has set of services for the selected application domain, REST API responses conforming to REST standards (response codes)
 
 2. The application makes use of an external REST service to complement its functionality: REST API for Twitter search https://api.twitter.com/1.1/search/tweets.json has been used.
@@ -28,46 +24,6 @@ RESTful application: ECS781P Cloud Computing Mini project
 * /tweetsearch : For the entered query on the main UI page, search in the stored Cassandra database first; if not found connect to Twitter external API
 
 
-## Installation
-
-OS X & Linux:
-
-```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
-
-
-## Installation
-
-After cloning, create a virtual environment and install the requirements. For Linux and Mac users:
-
-```$ virtualenv venv
-$ source venv/bin/activate
-(venv) $ pip install -r requirements.txt
-```
-
-If you are on Windows, then use the following commands instead:
-
-```$ virtualenv venv
-$ venv\Scripts\activate
-(venv) $ pip install -r requirements.txt
-```
-
-To use cqlsh, the Cassandra query language shell, you need to install cassandra-driver:
-```$ 
-pip install cassandra-driver
-```
-
-This installs Apache Cassandra:
-```$ 
-$ brew install cassandra
-```
 
 ## Release History
 
@@ -78,7 +34,7 @@ $ brew install cassandra
 
 ## Contributing
 
-1. Fork it (<https://github.com/SanketSadavarte/CloudMiniProject>)
+1. Fork it (<https://github.com/SanketSadavarte/ECS781PMiniProject>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
